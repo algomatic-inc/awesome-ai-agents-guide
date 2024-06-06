@@ -1,7 +1,4 @@
-<div style="display: flex; align-items: center;">
-    <img src="assets/algomatic.png" style="height: 32px;"/>
-    <span style="margin-left: 8px; font-size: 32px; font-weight: bold; align-self: center;">Awesome AI Agents Guide</span>
-</div>
+# Awesome AI Agents Guide
 
 [![Algomatic](https://img.shields.io/badge/About-Algomatic-blue)](https://algomatic.jp/)
 [![PR Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)](https://github.com/algomatic-inc/awesome-ai-agents-guide/pulls)
@@ -46,10 +43,12 @@ Please note, this repository is a voluntary project and does not list all existi
 ### Multi Agent
 
 
-
 ## Recruitment Information
+
+<img src="assets/algomatic.png" width="50%"/>
 
 Algomatic creates generative AI-native businesses across various fields.<br>
 We are looking for colleagues with diverse skills.
 
-<a href="https://jobs.algomatic.jp/"><span style="border: 2px solid #1c71a2; border-radius: 5px; padding: 4px 8px">Learn More</span></a>
+<a href="https://jobs.algomatic.jp/">Learn More</a>
+
