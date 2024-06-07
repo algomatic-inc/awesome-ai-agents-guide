@@ -17,6 +17,7 @@ Please note, this repository is a voluntary project and does not list all existi
 ### Overview
 
 - LLM Agent
+    - [Agent](#agent)
     - [Planning](#planning-and-reasoning)
     - [Action](#action)
     - [Reason](#reason)
@@ -39,12 +40,13 @@ We are not sure about the exact definition, but one commonly known definition is
 
 **Survey**
 
-- 2023.09 - 
 - 2023.09 - Xi et al., The Rise and Potential of Large Language Model Based Agents: A Survey [[arXiv](https://arxiv.org/abs/2309.07864)]
 - 2023.08 - Wang et al., A Survey on Large Language Model Based Autonomous Agents [[arXiv](https://arxiv.org/abs/2308.11432)]
+- 2023.06 - Taniguchi et al., World models and predictive coding for cognitive and developmental robotics: frontiers and challenges (Advanced Robotics) [[tandfonline](https://www.tandfonline.com/doi/full/10.1080/01691864.2023.2225232?src=most-read-last-year)]
 
 **Workshop or Tutorial**
 
+- 2024.07 - ICML 2024 Tutorial Understanding the Role of Large Language Models in Planning [[Home](https://icml.cc/virtual/2024/tutorial/35226)]
 - 2024.06 - CVPR 2024 Tutorial on Generalist Agent AI [[Home](https://multimodalagentai.github.io/)]
 - 2024.05 - ICLR 2024 Workshop on LLM Agents [[Home](https://llmagents.github.io/)]
 - 2023.08 - IJCAI 2023 Symposium on Large Language Models (LLM 2023) [[Home](https://bigmodel.ai/llm-ijcai23)]
@@ -56,9 +58,14 @@ We are not sure about the exact definition, but one commonly known definition is
 - 2024.06 - DeepLearning.AI, AI Agents in LangGraph [[deeplearning.ai](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/)]
 - 2024.05 - DeepLeanring.AI, AI Agentic Design Patterns with AutoGen [[deeplearning.ai](https://www.deeplearning.ai/short-courses/ai-agentic-design-patterns-with-autogen/)]
 - 2024.05 - DeepLearning.AI, Multi AI Agent Systems with crewAI [[deeplearning.ai](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)]
+- 2024.05 - DeepLearning.AI, Functions, Tools and Agents with LangChain [[deeplearning.ai](https://www.deeplearning.ai/short-courses/functions-tools-agents-langchain/)]
 - 2024.05 - DeepLearning.AI, Building Agentic RAG with LlamaIndex [[deeplearning.ai](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/)]
+- 2024.05 - Chi Wang, Agents in AutoGen [[autogen](https://microsoft.github.io/autogen/blog/2024/05/24/Agent/)]
+- 2024.05 - Bavor and Taylor, The Guide to AI Agents [[SIERRA](https://sierra.ai/blog/ai-agents-guide)]
 - 2024.05 - Yohei Nakajima, Future of Autonomous Agents [[X's broadcast](https://x.com/i/broadcasts/1lPKqbVgNrZGb)]
+- 2024.05 - Alex Klein, The agentic era of UX [[Medium](https://uxdesign.cc/the-agentic-era-of-ux-4b58634e410b)]
 - 2024.03 - Andrew Ng, Agentic Design Patterns Part 1 [[deeplearning.ai](https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/?utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8Kh954rkXmE4vgpKvro3Klpjhn7IuT-Y_eXIYtgVIq9PTzwa5zFWX7FZZqv1tuDEEsTDuY)]
+- 2024.03 - Harrison Chase, What's next for AI agents [[Sequoia Capital, Youtube](https://youtu.be/pBBe1pk8hf4?feature=shared)]
 - 2024.02 - Vincent Koc, Generative AI Design Patterns: A Comprehensive Guide [[Medium](https://towardsdatascience.com/generative-ai-design-patterns-a-comprehensive-guide-41425a40d7d0)]
 - 2023.12 - OpenAI, Practices for Governing Agentic AI Systems [[OpenAI](https://openai.com/index/practices-for-governing-agentic-ai-systems/)]
 - 2023.12 - Victor Dibia, Multi-Agent LLM Applications | A Review of Current Research, Tools, and Challenges [[newsletter](https://newsletter.victordibia.com/p/multi-agent-llm-applications-a-review)]
@@ -71,23 +78,45 @@ We are not sure about the exact definition, but one commonly known definition is
 - https://github.com/langchain-ai/langchain
 - https://github.com/langchain-ai/langgraph
 - https://github.com/joaomdmoura/crewAI
-- https://github.com/microsoft/autogen
-- https://github.com/SalesforceAIResearch/AgentLite
+- 2024 - Wu et al., AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation (ICLR) [[GitHub](https://github.com/microsoft/autogen)][[openreview](https://openreview.net/forum?id=tEAF9LBdgu)]
+- 2024.02 - Liu et al., AgentLite: A Lightweight Library for Building and Advancing Task-Oriented LLM Agent System [[GitHub](https://github.com/SalesforceAIResearch/AgentLite)][[arXiv](https://arxiv.org/abs/2402.15538)]
 - https://github.com/stanfordnlp/dspy
 - https://github.com/langgenius/dify
 - https://platform.openai.com/docs/assistants/overview
 - https://github.com/AgentOps-AI/agentops
 
+- Vertex AI Agent Builder, [[Google](https://cloud.google.com/blog/products/ai-machine-learning/build-generative-ai-experiences-with-vertex-ai-agent-builder?utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8TZzur2df1qdnGx09b-Fg94DTsc3-xXao4StKvKNU2HR51el3n8yOm0CPSw6GiAoLQNKua)]
 
-### Architecture
 
+### Agent
+
+- 2024.05 - Liu et al., Agent Design Pattern Catalogue: A Collection of Architectural Patterns for Foundation Model based Agents [[arXiv](https://arxiv.org/abs/2405.10467)]
+- 2024.02 - Zhang et al., Offline Training of Language Model Agents with Functions as Learnable Weights [[arXiv](https://arxiv.org/abs/2402.11359)]
+- 2023.10 - Zeng et al., AgentTuning: Enabling Generalized Agent Abilities for LLMs [[arXiv](https://arxiv.org/abs/2310.12823)]
 - 2023.09 - Sumers et al., Cognitive Architectures for Language Agents [[arXiv](https://arxiv.org/abs/2309.02427)]
 - 2023.05 - Xie et al., OlaGPT: Empowering LLMs With Human-like Problem-Solving Abilities [[arXiv](https://arxiv.org/abs/2305.16334)]
+- 2023.03 - Shen et al., HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face [[arXiv](https://arxiv.org/abs/2303.17580)]
+
+
+### Profile
+
+**Survey**
+
+- 2024.04 - Chen et al., From Persona to Personalization: A Survey on Role-Playing Language Agents [[arXiv](https://arxiv.org/abs/2404.18231)]
+- 2024.04 - Mathur et al., Advancing Social Intelligence in AI Agents: Technical Challenges and Open Questions [[arXiv](https://arxiv.org/abs/2404.11023)]
+
+**Papers**
+
+- 2024.04 - Yang et al., Social Skill Training with Large Language Models [[arXiv](https://arxiv.org/abs/2404.04204)]
+- 2024.02 - Xie et al., Can Large Language Model Agents Simulate Human Trust Behaviors? [[arXiv](https://arxiv.org/abs/2402.04559)]
 
 ### Planning and Reasoning
 
 **Survey**
 
+- 2023 - Valmeekam et al., On the Planning Abilities of Large Language Models: A Critical Investigation (NeurIPS) [[arXiv](https://arxiv.org/abs/2305.15771)]
+
+- 2024.04 - Zhang et al., LLM as a Mastermind: A Survey of Strategic Reasoning with Large Language Models [[arXiv](https://arxiv.org/abs/2404.01230)]
 - 2024.02 - Huang et al., Understanding the planning of LLM agents: A survey [[arXiv](https://arxiv.org/abs/2402.02716)]
 - 2023.12 - Sun et al., A Survey of Reasoning with Foundation Models [[arXiv](https://arxiv.org/abs/2312.11562)]
 - 2023.03 - Yang et al., Foundation Models for Decision Making: Problems, Methods, and Opportunities [[arXiv](https://arxiv.org/abs/2303.04129)]
@@ -95,6 +124,7 @@ We are not sure about the exact definition, but one commonly known definition is
 **Papers**
 
 - 2024 - Chen et al., When is Tree Search Useful for LLM Planning? It Depends on the Discriminator (ACL) [[arXiv](https://arxiv.org/abs/2402.10890)]
+- 2024 - Qiao et al., AutoAct: Automatic Agent Learning from Scratch for QA via Self-Planning (ACL) [[arXiv](https://arxiv.org/abs/2401.05268)]
 
 - 2024 - Kim et al., An LLM Compiler for Parallel Function Calling (ICML) [[arXiv](https://arxiv.org/abs/2312.04511)]
 
@@ -102,12 +132,21 @@ We are not sure about the exact definition, but one commonly known definition is
 
 - 2023 - Hao et al., Reasoning with Language Model is Planning with World Model (EMNLP) [[aclanthology](https://aclanthology.org/2023.emnlp-main.507/)]
 
-- 2023 - Khot et al., Decomposed Prompting: A Modular Approach for Solving Complex Tasks [[openreview](https://openreview.net/forum?id=_nGgzQjzaRy)]
+- 2023 - Khot et al., Decomposed Prompting: A Modular Approach for Solving Complex Tasks (ICLR) [[openreview](https://openreview.net/forum?id=_nGgzQjzaRy)]
+
+- 2023 - Valmeekam et al., PlanBench: An Extensible Benchmark for Evaluating Large Language Models on Planning and Reasoning about Change (NeurIPS) [[arXiv](https://arxiv.org/abs/2206.10498)]
 
 - 2023 - Wang et al., Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models (ACL) [[aclanthology](https://aclanthology.org/2023.acl-long.147/)]
 
+- 2024.05 - Xu et al., Faithful Logical Reasoning via Symbolic Chain-of-Thought [[arXiv](https://arxiv.org/abs/2405.18357)]
+- 2024.05 - Stechly et al., Chain of Thoughtlessness? An Analysis of CoT in Planning [[arXiv](https://arxiv.org/abs/2405.04776)]
+- 2024.05 - Verma et al., On the Brittle Foundations of ReAct Prompting for Agentic Large Language Models [[arXiv](https://arxiv.org/abs/2405.13966)]
+- 2024.04 - Jin et al., Graph Chain-of-Thought: Augmenting Large Language Models by Reasoning on Graphs [[arXiv](https://arxiv.org/abs/2404.07103)]
+- 2024.04 - Juneja et al., 𝙻𝙼𝟸: A Simple Society of Language Models Solves Complex Reasoning [[arXiv](https://www.arxiv.org/abs/2404.02255)]
 - 2024.03 - Zhu et al., KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents [[arXiv](https://arxiv.org/abs/2403.03101)]
+- 2024.02 - Stechly et al., On the Self-Verification Limitations of Large Language Models on Reasoning and Planning Tasks [[arXiv](https://arxiv.org/abs/2402.08115)]
 - 2024.02 - Kambhampati et al., LLMs Can't Plan, But Can Help Planning in LLM-Modulo Frameworks [[arXiv](https://arxiv.org/abs/2402.01817)]
+- 2023.10 - Wang et al., PromptAgent: Strategic Planning with Language Models Enables Expert-level Prompt Optimization [[arXiv](https://arxiv.org/abs/2310.16427)]
 - 2023.08 - Dagan et al., Dynamic Planning with a LLM [[arXiv](https://arxiv.org/abs/2308.06391)]
 - 2023.05 - Xu et al., ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models [[arXiv](https://arxiv.org/abs/2305.18323)]
 - 2023.05 - Brahman et al., PlaSma: Making Small Language Models Better Procedural Knowledge Models for (Counterfactual) Planning [[arXiv](https://arxiv.org/abs/2305.19472)]
@@ -129,6 +168,7 @@ WIP
 - 2024.01 - Shen et al., Small LLMs Are Weak Tool Learners: A Multi-LLM Agent [[arXiv](https://arxiv.org/abs/2401.07324)]
 - 2024.01 - Gao et al., Efficient Tool Use with Chain-of-Abstraction Reasoning [[arXiv](https://arxiv.org/abs/2401.17464)]
 - 2024.01 - Yuan et al., EASYTOOL: Enhancing LLM-based Agents with Concise Tool Instruction [[arXiv](https://arxiv.org/abs/2401.06201)]
+- 2024.01 - Wang et al., TroVE: Inducing Verifiable and Efficient Toolboxes for Solving Programmatic Tasks [[arXiv](https://arxiv.org/abs/2401.12869)]
 - 2023.12 - NexusRaven-V2: Surpassing GPT-4 for Zero-shot Function Calling [[Nexusflow](https://nexusflow.ai/blogs/ravenv2)]
 - 2023.08 - Hsieh et al., Tool Documentation Enables Zero-Shot Tool-Usage with Large Language Models [[arXiv](https://arxiv.org/abs/2308.00675)]
 - 2023.07 - Qin et al., ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs [[arXiv](https://arxiv.org/abs/2307.16789)]
@@ -166,6 +206,8 @@ WIP
 
 - 2024 - Na et al., Efficient Episodic Memory Utilization of Cooperative Multi-Agent Reinforcement Learning (ICLR) [[openreview](https://openreview.net/forum?id=LjivA1SLZ6)]
 
+- 2024.06 - Yang et al., Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models [[arXiv](https://arxiv.org/abs/2406.04271)]
+
 ### Reflection
 
 **Survey**
@@ -174,7 +216,10 @@ WIP
 
 **Papers**
 
-- 
+- 2024.04 - Naik et al., Generating Situated Reflection Triggers about Alternative Solution Paths: A Case Study of Generative AI for Computer-Supported Collaborative Learning [[arXiv](https://arxiv.org/abs/2404.18262)]
+- 2024.04 - Tian et al., Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing [[arXiv](https://arxiv.org/abs/2404.12253)]
+- 2024.03 - Song et al., Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents [[arXiv](https://arxiv.org/abs/2403.02502)]
+
 
 ### Multi-modal
 
@@ -185,6 +230,17 @@ WIP
 **Papers**
 
 - 2023 - Hu et al., AVIS: Autonomous Visual Information Seeking with Large Language Model Agent (NeurIPS) [[openreview](https://openreview.net/forum?id=7EMphtUgCI&referrer=%5Bthe%20profile%20of%20Cordelia%20Schmid%5D(%2Fprofile%3Fid%3D~Cordelia_Schmid1))]
+
+
+- 2024.04 - Shaham et al., A Multimodal Automated Interpretability Agent [[arXiv](https://arxiv.org/abs/2404.14394)]
+- 2024.03 - Mar et al., Modeling Multimodal Social Interactions: New Challenges and Baselines with Densely Aligned Representations [[arXiv](https://arxiv.org/abs/2403.02090)]
+
+### Environments
+
+- 2024.06 - Xi et al., AgentGym: Evolving Large Language Model-based Agents across Diverse Environments [[arXiv](https://arxiv.org/abs/2406.04151)]
+- 2024.04 - Xie et al., OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments [[arXiv](https://arxiv.org/abs/2404.07972)]
+- 2024.03 - SIMA Team, Scaling Instructable Agents Across Many Simulated Worlds [[arXiv](https://arxiv.org/abs/2404.10179v2)]
+
 
 ### Multi Agent
 
@@ -205,16 +261,23 @@ WIP
 
 - 2023 - Xiong et al., Examining Inter-Consistency of Large Language Models Collaboration: An In-depth Analysis via Debate (EMNLP) [[aclanthology](https://aclanthology.org/2023.findings-emnlp.508/)]
 
+- 2024.05 - Sarkar et al., Normative Modules: A Generative Agent Architecture for Learning Norms that Supports Multi-Agent Cooperation [[arXiv](https://arxiv.org/abs/2405.19328)]
+- 2024.05 - Sun et al., Facilitating Multi-Role and Multi-Behavior Collaboration of Large Language Models for Online Job Seeking and Recruiting [[arXiv](https://arxiv.org/abs/2405.18113)]
 - 2024.04 - Yue et al., MathVC: An LLM-Simulated Multi-Character Virtual Classroom for Mathematics Education [[arXiv](https://arxiv.org/abs/2404.06711)]
 - 2024.02 - Wang et al., Multi-Agent Collaboration Framework for Recommender Systems [[arXiv](https://arxiv.org/abs/2402.15235)]
 - 2024.02 - Li et al., Can LLMs Speak For Diverse People? Tuning LLMs via Debate to Generate Controllable Controversial Statements [[arXiv](https://arxiv.org/abs/2402.10614)]
 - 2024.02 - Fang et al., A Multi-Agent Conversational Recommender System [[arXiv](https://arxiv.org/abs/2402.01135)]
+- 2023.10 - Agashe et al., LLM-Coordination: Evaluating and Analyzing Multi-agent Coordination Abilities in Large Language Modes [[arXiv](https://arxiv.org/abs/2310.03903)]
 - 2023.07 - Nascimento et al., Self-Adaptive Large Language Model (LLM)-Based Multiagent Systems [[arXiv](https://arxiv.org/abs/2307.06187)]
 - 2023.07 - Wang et al., Unleashing the Emergent Cognitive Synergy in Large Language Models: A Task-Solving Agent through Multi-Persona Self-Collaboration [[arXiv](https://arxiv.org/abs/2307.05300)]
+- 2023.06 - Cui et al., Chatlaw: A Multi-Agent Collaborative Legal Assistant with Knowledge Graph Enhanced Mixture-of-Experts Large Language Model [[arXiv](https://arxiv.org/abs/2306.16092)]
 - 2023.05 - Liang et al., Encouraging Divergent Thinking in Large Language Models through Multi-Agent Debate [[arXiv](https://arxiv.org/abs/2305.19118)]
 
 ## Application
 
+### Information Seeking
+
+- 2024.04 - Chen et al., ChatShop: Interactive Information Seeking with Language Agents [[arXiv](https://arxiv.org/abs/2404.09911)]
 
 ### Web Navigation
 
@@ -242,6 +305,7 @@ WIP
 - 2024.04 - Zhang et al., MMInA: Benchmarking Multihop Multimodal Internet Agents [[arXiv](https://arxiv.org/abs/2404.09992)]
 - 2024.04 - Lai et al., AutoWebGLM: Bootstrap And Reinforce A Large Language Model-based Web Navigating Agent [[arXiv](https://arxiv.org/abs/2404.03648)]
 - 2024.04 - Huang et al., AutoCrawler: A Progressive Understanding Web Agent for Web Crawler Generation [[arXiv](https://arxiv.org/abs/2404.12753)]
+- 2024.04 - Pan et al., Autonomous Evaluation and Refinement of Digital Agents [[arXiv](https://arxiv.org/abs/2404.06474v2)]
 - 2024.03 - Drouin et al., WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks? [[arXiv](https://arxiv.org/abs/2403.07718)]
 - 2024.02 - Zhang et al., UFO: A UI-Focused Agent for Windows OS Interaction [[arXiv](https://arxiv.org/abs/2402.07939)]
 - 2024.02 - Lù et al., WebLINX: Real-World Website Navigation with Multi-Turn Dialogue [[arXiv](https://arxiv.org/abs/2402.05930)]
@@ -250,6 +314,7 @@ WIP
 - 2023.12 - Zhang et al., AppAgent: Multimodal Agents as Smartphone Users [[arXiv](https://arxiv.org/abs/2312.13771)]
 - 2023.11 - Yan et al., GPT-4V in Wonderland: Large Multimodal Models for Zero-Shot Smartphone GUI Navigation [[arXiv](https://arxiv.org/abs/2311.07562)]
 - 2023.11 - Furuta et al., Exposing Limitations of Language Model Agents in Sequential-Task Compositions on the Web [[arXiv](https://arxiv.org/abs/2311.18751)]
+- 2023.10 - Ma et al., How to Teach Programming in the AI Era? Using LLMs as a Teachable Agent for Debugging [[arXiv](https://arxiv.org/abs/2310.05292)]
 - 2023.07 - Rawles et al., Android in the Wild: A Large-Scale Dataset for Android Device Control [[arXiv](https://arxiv.org/abs/2307.10088)]
 - 2022.02 - Humphreys et al., A Data-Driven Approach for Learning to Control Computers [[arXiv](https://arxiv.org/abs/2202.08137)]
 - 2021.07 - Nakano et al., WebGPT: Browser-assisted question-answering with human feedback [[arXiv](https://arxiv.org/abs/2112.09332?ref=ja.stateofaiguides.com)]
@@ -275,6 +340,7 @@ WIP
 
 
 - 2024.05 - Yang et al., SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering [[arXiv](https://arxiv.org/abs/2405.15793)]
+- 2024.05 - Tang et al., Code Repair with LLMs gives an Exploration-Exploitation Tradeoff [[arXiv](https://arxiv.org/abs/2405.17503)]
 - 2024.04 - Zhang et al., AutoCodeRover: Autonomous Program Improvement [[arXiv](https://arxiv.org/abs/2404.05427)]
 - 2024.03 - Jain et al., LiveCodeBench: Holistic and Contamination Free Evaluation of Large Language Models for Code [[arXiv](https://arxiv.org/abs/2403.07974)]
 - 2024.03 - Tufano et al., AutoDev: Automated AI-Driven Development [[arXiv](https://arxiv.org/abs/2403.08299)]
