@@ -39,6 +39,7 @@ We are not sure about the exact definition, but one commonly known definition is
 
 **Survey**
 
+- 2023.09 - 
 - 2023.09 - Xi et al., The Rise and Potential of Large Language Model Based Agents: A Survey [[arXiv](https://arxiv.org/abs/2309.07864)]
 - 2023.08 - Wang et al., A Survey on Large Language Model Based Autonomous Agents [[arXiv](https://arxiv.org/abs/2308.11432)]
 
@@ -77,6 +78,11 @@ We are not sure about the exact definition, but one commonly known definition is
 - https://platform.openai.com/docs/assistants/overview
 - https://github.com/AgentOps-AI/agentops
 
+
+### Architecture
+
+- 2023.09 - Sumers et al., Cognitive Architectures for Language Agents [[arXiv](https://arxiv.org/abs/2309.02427)]
+- 2023.05 - Xie et al., OlaGPT: Empowering LLMs With Human-like Problem-Solving Abilities [[arXiv](https://arxiv.org/abs/2305.16334)]
 
 ### Planning and Reasoning
 
