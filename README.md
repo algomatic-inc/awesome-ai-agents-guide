@@ -6,7 +6,7 @@
 
 The awesome-ai-agent-guide repository is an initial effort to put together a comprehensive list of AI/LLM Agents focused on research and products.
 
-Please note, this repository is a voluntary project and does not list all existing AI agents. This repository is a work in progress, and items are being added gradually. Contributions are welcome, so we look forward to your proactive PRs!
+Please note, this repository is a voluntary project and does not list all existing AI agents. This repository is a <u>work in progress</u>, and items are being added gradually. Contributions are welcome, so **we look forward to your proactive PRs!**
 
 **Disclaimer**<br>
 ・ If there are any errors in interpretation or quotations, please let us know.<br>
@@ -17,7 +17,6 @@ Please note, this repository is a voluntary project and does not list all existi
 ### Overview
 
 - LLM Agent
-    - [Architecture](#architecture)
     - [Planning](#planning-and-reasoning)
     - [Action](#action)
     - [Reason](#reason)
@@ -33,12 +32,51 @@ Please note, this repository is a voluntary project and does not list all existi
 
 ## AI Agent
 
-### Architecture
+We are not sure about the exact definition, but one commonly known definition is the following.
+
+> An autonomous agent is a system situated within and a part of an environment that senses that environment and acts on it, over time, in pursuit of its own agenda and so as to effect what it senses in the future.<br>
+> --- Franklin and Graesser (1997)
 
 **Survey**
 
 - 2023.09 - Xi et al., The Rise and Potential of Large Language Model Based Agents: A Survey [[arXiv](https://arxiv.org/abs/2309.07864)]
 - 2023.08 - Wang et al., A Survey on Large Language Model Based Autonomous Agents [[arXiv](https://arxiv.org/abs/2308.11432)]
+
+**Workshop or Tutorial**
+
+- 2024.06 - CVPR 2024 Tutorial on Generalist Agent AI [[Home](https://multimodalagentai.github.io/)]
+- 2024.05 - ICLR 2024 Workshop on LLM Agents [[Home](https://llmagents.github.io/)]
+- 2023.08 - IJCAI 2023 Symposium on Large Language Models (LLM 2023) [[Home](https://bigmodel.ai/llm-ijcai23)]
+
+**Misc**
+
+- 2025.XX - Micheal Lanham, GPT Agents in Action [[manning](https://www.manning.com/books/gpt-agents-in-action)]
+- 2024.XX - LangChain, Go autonomous  with LangChain Agents [[langchain](https://www.langchain.com/agents)]
+- 2024.06 - DeepLearning.AI, AI Agents in LangGraph [[deeplearning.ai](https://www.deeplearning.ai/short-courses/ai-agents-in-langgraph/)]
+- 2024.05 - DeepLeanring.AI, AI Agentic Design Patterns with AutoGen [[deeplearning.ai](https://www.deeplearning.ai/short-courses/ai-agentic-design-patterns-with-autogen/)]
+- 2024.05 - DeepLearning.AI, Multi AI Agent Systems with crewAI [[deeplearning.ai](https://www.deeplearning.ai/short-courses/multi-ai-agent-systems-with-crewai/)]
+- 2024.05 - DeepLearning.AI, Building Agentic RAG with LlamaIndex [[deeplearning.ai](https://www.deeplearning.ai/short-courses/building-agentic-rag-with-llamaindex/)]
+- 2024.05 - Yohei Nakajima, Future of Autonomous Agents [[X's broadcast](https://x.com/i/broadcasts/1lPKqbVgNrZGb)]
+- 2024.03 - Andrew Ng, Agentic Design Patterns Part 1 [[deeplearning.ai](https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/?utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8Kh954rkXmE4vgpKvro3Klpjhn7IuT-Y_eXIYtgVIq9PTzwa5zFWX7FZZqv1tuDEEsTDuY)]
+- 2024.02 - Vincent Koc, Generative AI Design Patterns: A Comprehensive Guide [[Medium](https://towardsdatascience.com/generative-ai-design-patterns-a-comprehensive-guide-41425a40d7d0)]
+- 2023.12 - OpenAI, Practices for Governing Agentic AI Systems [[OpenAI](https://openai.com/index/practices-for-governing-agentic-ai-systems/)]
+- 2023.12 - Victor Dibia, Multi-Agent LLM Applications | A Review of Current Research, Tools, and Challenges [[newsletter](https://newsletter.victordibia.com/p/multi-agent-llm-applications-a-review)]
+- 2023.11 - Tanay Varshney, Introduction to LLM Agents [[NVIDIA Blog](https://developer.nvidia.com/blog/introduction-to-llm-agents/)]
+- 2023.06 - Lilian Weng, LLM Powered Autonomous Agents [[Lil'Log](https://lilianweng.github.io/posts/2023-06-23-agent/)]
+- Prompt Engineering Guide, LLM Agents [[promptingguide.ai](https://www.promptingguide.ai/research/llm-agents)]
+
+**Libraries**
+
+- https://github.com/langchain-ai/langchain
+- https://github.com/langchain-ai/langgraph
+- https://github.com/joaomdmoura/crewAI
+- https://github.com/microsoft/autogen
+- https://github.com/SalesforceAIResearch/AgentLite
+- https://github.com/stanfordnlp/dspy
+- https://github.com/langgenius/dify
+- https://platform.openai.com/docs/assistants/overview
+- https://github.com/AgentOps-AI/agentops
+
 
 ### Planning and Reasoning
 
