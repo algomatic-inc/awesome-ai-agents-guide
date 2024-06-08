@@ -40,7 +40,9 @@ We are not sure about the exact definition, but one commonly known definition is
 
 **Survey**
 
+- 2024.02 - Huang et al., Position Paper: Agent AI Towards a Holistic Intelligence [[arXiv](https://arxiv.org/abs/2403.00833)]
 - 2023.09 - Xi et al., The Rise and Potential of Large Language Model Based Agents: A Survey [[arXiv](https://arxiv.org/abs/2309.07864)]
+- 2023.09 - Zhao et al., An In-depth Survey of Large Language Model-based Artificial Intelligence Agents [[arXiv](https://arxiv.org/abs/2309.14365)]
 - 2023.08 - Wang et al., A Survey on Large Language Model Based Autonomous Agents [[arXiv](https://arxiv.org/abs/2308.11432)]
 - 2023.06 - Taniguchi et al., World models and predictive coding for cognitive and developmental robotics: frontiers and challenges (Advanced Robotics) [[tandfonline](https://www.tandfonline.com/doi/full/10.1080/01691864.2023.2225232?src=most-read-last-year)]
 
@@ -75,23 +77,27 @@ We are not sure about the exact definition, but one commonly known definition is
 
 **Libraries**
 
+- 2024 - Wu et al., AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation (ICLR) [[GitHub](https://github.com/microsoft/autogen)][[openreview](https://openreview.net/forum?id=tEAF9LBdgu)]
+- 2024.02 - Liu et al., AgentLite: A Lightweight Library for Building and Advancing Task-Oriented LLM Agent System [[GitHub](https://github.com/SalesforceAIResearch/AgentLite)][[arXiv](https://arxiv.org/abs/2402.15538)]
+- 2023.10 - Khattab et al., DSPy: Compiling Declarative Language Model Calls into Self-Improving Pipelines [[arXiv](https://github.com/stanfordnlp/dspy)]
 - https://github.com/langchain-ai/langchain
 - https://github.com/langchain-ai/langgraph
 - https://github.com/joaomdmoura/crewAI
-- 2024 - Wu et al., AutoGen: Enabling Next-Gen LLM Applications via Multi-Agent Conversation (ICLR) [[GitHub](https://github.com/microsoft/autogen)][[openreview](https://openreview.net/forum?id=tEAF9LBdgu)]
-- 2024.02 - Liu et al., AgentLite: A Lightweight Library for Building and Advancing Task-Oriented LLM Agent System [[GitHub](https://github.com/SalesforceAIResearch/AgentLite)][[arXiv](https://arxiv.org/abs/2402.15538)]
-- https://github.com/stanfordnlp/dspy
 - https://github.com/langgenius/dify
 - https://platform.openai.com/docs/assistants/overview
 - https://github.com/AgentOps-AI/agentops
 
 - Vertex AI Agent Builder, [[Google](https://cloud.google.com/blog/products/ai-machine-learning/build-generative-ai-experiences-with-vertex-ai-agent-builder?utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8TZzur2df1qdnGx09b-Fg94DTsc3-xXao4StKvKNU2HR51el3n8yOm0CPSw6GiAoLQNKua)]
+- Agents for Amazon Bedrock, [[Amazon](https://aws.amazon.com/bedrock/agents/?nc1=h_ls)]
 
 
 ### Agent
 
+- 2023 - Yao et al., ReAct: Synergizing Reasoning and Acting in Language Models (ICLR) [[openreview](https://openreview.net/forum?id=WE_vluYUL-X)]
+
 - 2024.05 - Liu et al., Agent Design Pattern Catalogue: A Collection of Architectural Patterns for Foundation Model based Agents [[arXiv](https://arxiv.org/abs/2405.10467)]
 - 2024.02 - Zhang et al., Offline Training of Language Model Agents with Functions as Learnable Weights [[arXiv](https://arxiv.org/abs/2402.11359)]
+- 2023.12 - Ge et al., LLM as OS, Agents as Apps: Envisioning AIOS, Agents and the AIOS-Agent Ecosystem [[arXiv](https://arxiv.org/abs/2312.03815)]
 - 2023.10 - Zeng et al., AgentTuning: Enabling Generalized Agent Abilities for LLMs [[arXiv](https://arxiv.org/abs/2310.12823)]
 - 2023.09 - Sumers et al., Cognitive Architectures for Language Agents [[arXiv](https://arxiv.org/abs/2309.02427)]
 - 2023.05 - Xie et al., OlaGPT: Empowering LLMs With Human-like Problem-Solving Abilities [[arXiv](https://arxiv.org/abs/2305.16334)]
@@ -109,6 +115,7 @@ We are not sure about the exact definition, but one commonly known definition is
 
 - 2024.04 - Yang et al., Social Skill Training with Large Language Models [[arXiv](https://arxiv.org/abs/2404.04204)]
 - 2024.02 - Xie et al., Can Large Language Model Agents Simulate Human Trust Behaviors? [[arXiv](https://arxiv.org/abs/2402.04559)]
+- 2023.12 - Yan et al., LARP: Language-Agent Role Play for Open-World Games [[arXiv](https://arxiv.org/abs/2312.17653)]
 
 ### Planning and Reasoning
 
@@ -128,15 +135,25 @@ We are not sure about the exact definition, but one commonly known definition is
 
 - 2024 - Kim et al., An LLM Compiler for Parallel Function Calling (ICML) [[arXiv](https://arxiv.org/abs/2312.04511)]
 
+- 2024 - Prasad et al., ADaPT: As-Needed Decomposition and Planning with Language Models (NAACL) [[arXiv](https://arxiv.org/abs/2311.05772)]
+- 2024 - Zhou et al., Enhancing the General Agent Capabilities of Low-Parameter LLMs through Tuning and Multi-Branch Reasoning (NAACL) [[arXiv](https://arxiv.org/abs/2403.19962)]
+- 2024 - Wang et al., RecMind: Large Language Model Powered Agent For Recommendation (NAACL) [[arXiv](https://arxiv.org/abs/2308.14296)]
+- 2024 - Roy et al., FLAP: Flow-Adhering Planning with Constrained Decoding in LLMs (NAACL) [[arXiv](https://arxiv.org/abs/2403.05766)]
+- 2024 - Lee et al., PlanRAG: A Plan-then-Retrieval Augmented Generation for Generative Large Language Models as Decision Makers [[openreview](https://openreview.net/forum?id=4sajV6NEnWE)]
+
 - 2024 - Ning et al., Skeleton-of-Thought: Prompting LLMs for Efficient Parallel Generation (ICLR) [[openreview](https://openreview.net/forum?id=mqVgBbNCm9)]
-
 - 2023 - Hao et al., Reasoning with Language Model is Planning with World Model (EMNLP) [[aclanthology](https://aclanthology.org/2023.emnlp-main.507/)]
-
+- 2023 - Press et al., Measuring and Narrowing the Compositionality Gap in Language Models (EMNLP) [[aclanthology](https://aclanthology.org/2023.findings-emnlp.378/)]
+- 2023 - Gupta et al., Visual Programming: Compositional Visual Reasoning Without Training (CVPR) [[CVF](https://openaccess.thecvf.com/content/CVPR2023/html/Gupta_Visual_Programming_Compositional_Visual_Reasoning_Without_Training_CVPR_2023_paper.html)]
 - 2023 - Khot et al., Decomposed Prompting: A Modular Approach for Solving Complex Tasks (ICLR) [[openreview](https://openreview.net/forum?id=_nGgzQjzaRy)]
-
+- 2023 - Zhou et al., Least-to-Most Prompting Enables Complex Reasoning in Large Language Models (ICLR) [[openreview](https://openreview.net/forum?id=WZH7099tgfM)]
 - 2023 - Valmeekam et al., PlanBench: An Extensible Benchmark for Evaluating Large Language Models on Planning and Reasoning about Change (NeurIPS) [[arXiv](https://arxiv.org/abs/2206.10498)]
-
+- 2023 - Yao et al., Tree of Thoughts: Deliberate Problem Solving with Large Language Models [[arXiv](https://arxiv.org/abs/2305.10601)]
 - 2023 - Wang et al., Plan-and-Solve Prompting: Improving Zero-Shot Chain-of-Thought Reasoning by Large Language Models (ACL) [[aclanthology](https://aclanthology.org/2023.acl-long.147/)]
+- 2023 - Subramanian et al., Modular Visual Question Answering via Code Generation (ACL) [[aclanthology](https://aclanthology.org/2023.acl-short.65/)]
+- 2023 - Chen et al., Program of Thoughts Prompting: Disentangling Computation from Reasoning for Numerical Reasoning Tasks (TMLR) [[openreview](https://openreview.net/forum?id=YfZ4ZPt8zd)] 
+
+- 2022 - Dua et al., Successive Prompting for Decomposing Complex Questions (EMNLP) [[aclanthology](https://aclanthology.org/2022.emnlp-main.81/)]
 
 - 2024.05 - Xu et al., Faithful Logical Reasoning via Symbolic Chain-of-Thought [[arXiv](https://arxiv.org/abs/2405.18357)]
 - 2024.05 - Stechly et al., Chain of Thoughtlessness? An Analysis of CoT in Planning [[arXiv](https://arxiv.org/abs/2405.04776)]
@@ -147,13 +164,15 @@ We are not sure about the exact definition, but one commonly known definition is
 - 2024.02 - Stechly et al., On the Self-Verification Limitations of Large Language Models on Reasoning and Planning Tasks [[arXiv](https://arxiv.org/abs/2402.08115)]
 - 2024.02 - Kambhampati et al., LLMs Can't Plan, But Can Help Planning in LLM-Modulo Frameworks [[arXiv](https://arxiv.org/abs/2402.01817)]
 - 2023.10 - Wang et al., PromptAgent: Strategic Planning with Language Models Enables Expert-level Prompt Optimization [[arXiv](https://arxiv.org/abs/2310.16427)]
+- 2023.08 - Besta et al., Graph of Thoughts: Solving Elaborate Problems with Large Language Models [[arXiv](https://arxiv.org/abs/2308.09687)]
 - 2023.08 - Dagan et al., Dynamic Planning with a LLM [[arXiv](https://arxiv.org/abs/2308.06391)]
+- 2023.05 - Surís et al., ViperGPT: Visual Inference via Python Execution for Reasoning [[arXiv](https://arxiv.org/abs/2303.08128)]
 - 2023.05 - Xu et al., ReWOO: Decoupling Reasoning from Observations for Efficient Augmented Language Models [[arXiv](https://arxiv.org/abs/2305.18323)]
 - 2023.05 - Brahman et al., PlaSma: Making Small Language Models Better Procedural Knowledge Models for (Counterfactual) Planning [[arXiv](https://arxiv.org/abs/2305.19472)]
+- 2023.04 - Lu et al., Chameleon: Plug-and-Play Compositional Reasoning with Large Language Models [[arXiv](https://arxiv.org/abs/2304.09842)]
+- 2022.11 - Gao et al., PAL: Program-aided Language Models [[arXiv](https://arxiv.org/abs/2211.10435)]
 
 ### Action
-
-WIP
 
 **Survey**
 - 2024.03 - Wang et al., What Are Tools Anyway? A Survey from the Language Model Perspective [[arXiv](https://arxiv.org/abs/2403.15452)]
@@ -161,6 +180,23 @@ WIP
 
 **Papers**
 
+- 2024 - Basu et al., API-BLEND: A Comprehensive Corpora for Training and Benchmarking API LLMs (ACL) [[arXiv](https://arxiv.org/abs/2402.15491)]
+- 2024 - Qiao et al., Making Language Models Better Tool Learners with Execution Feedback (NAACL) [[arXiv](https://arxiv.org/abs/2305.13068)]
+- 2024 - Zhang et al., Reverse Chain: A Generic-Rule for LLMs to Master Multi-API Planning (NAACL) [[arXiv](https://arxiv.org/abs/2310.04474)]
+- 2024 - Huang et al., Planning and Editing What You Retrieve for Enhanced Tool Learning (NAACL) [[arXiv](https://arxiv.org/abs/2404.00450)]
+- 2024 - Qian et al., Toolink: Linking Toolkit Creation and Using through Chain-of-Solving on Open-Source Model (NAACL) [[arXiv](https://arxiv.org/abs/2310.05155)]
+- 2024 - Zheng et al., ToolRerank: Adaptive and Hierarchy-Aware Reranking for Tool Retrieval (LREC-COLING) [[arXiv](https://arxiv.org/abs/2403.06551)]
+- 2024 - Xu et al., On the Tool Manipulation Capability of Open-sourced Large Language Models (ICLR) [[openreview](https://openreview.net/forum?id=iShM3YolRY)]
+- 2024 - Gou et al., ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving (ICLR) [[openreview](https://openreview.net/forum?id=Ep0TtjVoap)]
+- 2024 - Li et al., Tool-Augmented Reward Modeling (ICLR) [[openreview](https://openreview.net/forum?id=d94x0gWTUX)]
+- 2023 - Li et al., API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs (EMNLP) [[aclanthology](https://aclanthology.org/2023.emnlp-main.187/)]
+- 2023 - Jacovi et al., A Comprehensive Evaluation of Tool-Assisted Generation Strategies (EMNLP) [[aclanthology](https://aclanthology.org/2023.findings-emnlp.926/)]
+- 2023 - Chen et al., ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language Models (EMNLP) [[aclanthology](https://aclanthology.org/2023.findings-emnlp.985/)]
+- 2023 - Schick et al., Toolformer: Language Models Can Teach Themselves to Use Tools (NeurIPS) [[openreview](https://openreview.net/forum?id=Yacmpz84TH)]
+- 2023 - Hao et al., ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings (NeurIPS) [[openreview](https://openreview.net/forum?id=BHXsb69bSx)]
+- 2023 - Srinivasan et al., NexusRaven: a commercially-permissive Language Model for function calling (NeurIPS) [[openreview](https://openreview.net/forum?id=Md6RUrGz67)]
+- 2023 - Yang et al., GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction (NeurIPS) [[openreview](https://openreview.net/forum?id=cwjh8lqmOL)]
+- 2022 - Parisi et al., TALM: Tool Augmented Language Models [[arXiv](https://arxiv.org/abs/2205.12255)]
 - 2024.03 - Wang et al., LLMs in the Imaginarium: Tool Learning through Simulated Trial and Error [[arXiv](https://arxiv.org/abs/2403.04746)]
 - 2024.02 - Das et al., MATHSENSEI: A Tool-Augmented Large Language Model for Mathematical Reasoning [[arXiv](https://arxiv.org/abs/2402.17231)]
 - 2024.02 - Du et al., AnyTool: Self-Reflective, Hierarchical Agents for Large-Scale API Calls [[arXiv](https://arxiv.org/abs/2402.04253)]
@@ -177,36 +213,20 @@ WIP
 - 2023.05 - Cai et al., Large Language Models as Tool Makers [[arXiv](https://arxiv.org/abs/2305.17126)]
 - 2023.05 - Patil et al., Gorilla: Large Language Model Connected with Massive APIs [[arXiv](https://arxiv.org/abs/2305.15334)]
 - 2023.03 - Shen et al., HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face [[arXiv](https://arxiv.org/abs/2303.17580)]
-
-- 2024 - Basu et al., API-BLEND: A Comprehensive Corpora for Training and Benchmarking API LLMs (ACL) [[arXiv](https://arxiv.org/abs/2402.15491)]
-
-- 2024 - Qiao et al., Making Language Models Better Tool Learners with Execution Feedback (NAACL) [[arXiv](https://arxiv.org/abs/2305.13068)]
-- 2024 - Zheng et al., ToolRerank: Adaptive and Hierarchy-Aware Reranking for Tool Retrieval (LREC-COLING) [[arXiv](https://arxiv.org/abs/2403.06551)]
-
-- 2024 - Xu et al., On the Tool Manipulation Capability of Open-sourced Large Language Models (ICLR) [[openreview](https://openreview.net/forum?id=iShM3YolRY)]
-- 2024 - Gou et al., ToRA: A Tool-Integrated Reasoning Agent for Mathematical Problem Solving (ICLR) [[openreview](https://openreview.net/forum?id=Ep0TtjVoap)]
-- 2024 - Li et al., Tool-Augmented Reward Modeling [[openreview](https://openreview.net/forum?id=d94x0gWTUX)]
-
-- 2023 - Li et al., API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs (EMNLP) [[aclanthology](https://aclanthology.org/2023.emnlp-main.187/)]
-- 2023 - Jacovi et al., A Comprehensive Evaluation of Tool-Assisted Generation Strategies (EMNLP) [[aclanthology](https://aclanthology.org/2023.findings-emnlp.926/)]
-- 2023 - Chen et al., ChatCoT: Tool-Augmented Chain-of-Thought Reasoning on Chat-based Large Language Models (EMNLP) [[aclanthology](https://aclanthology.org/2023.findings-emnlp.985/)]
-
-- 2023 - Schick et al., Toolformer: Language Models Can Teach Themselves to Use Tools (NeurIPS) [[openreview](https://openreview.net/forum?id=Yacmpz84TH)]
-- 2023 - Hao et al., ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings (NeurIPS) [[openreview](https://openreview.net/forum?id=BHXsb69bSx)]
-- 2023 - Srinivasan et al., NexusRaven: a commercially-permissive Language Model for function calling (NeurIPS) [[openreview](https://openreview.net/forum?id=Md6RUrGz67)]
-- 2023 - Yang et al., GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction (NeurIPS) [[openreview](https://openreview.net/forum?id=cwjh8lqmOL)]
-
-- 2022 - Parisi et al., TALM: Tool Augmented Language Models [[arXiv](https://arxiv.org/abs/2205.12255)]
+- 2023.03 - Paranjape et al., ART: Automatic multi-step reasoning and tool-use for large language models [[arXiv](https://arxiv.org/abs/2303.09014)]
 
 ### Memory
 
 **Survey**
 
+- 2024.04 - Zhang et al., A Survey on the Memory Mechanism of Large Language Model based Agents [[arXiv](https://arxiv.org/abs/2404.13501)][[GitHub](https://github.com/nuster1128/LLM_Agent_Memory_Survey)]
+
 **Papers**
 
 - 2024 - Na et al., Efficient Episodic Memory Utilization of Cooperative Multi-Agent Reinforcement Learning (ICLR) [[openreview](https://openreview.net/forum?id=LjivA1SLZ6)]
-
 - 2024.06 - Yang et al., Buffer of Thoughts: Thought-Augmented Reasoning with Large Language Models [[arXiv](https://arxiv.org/abs/2406.04271)]
+- 2023.10 - Zhang et al., Retrieve Anything To Augment Large Language Models [[arXiv](https://arxiv.org/abs/2310.07554)]
+- 2023.05 - Modarressi et al., RET-LLM: Towards a General Read-Write Memory for Large Language Models [[arXiv](https://arxiv.org/abs/2305.14322)]
 
 ### Reflection
 
@@ -215,6 +235,11 @@ WIP
 - 
 
 **Papers**
+
+- 2024 - Yu et al., Teaching Language Models to Self-Improve through Interactive Demonstrations (NAACL) [[arXiv](https://arxiv.org/abs/2310.13522)]
+- 2024 - Xu et al., LLMRefine: Pinpointing and Refining Large Language Models via Fine-Grained Actionable Feedback (NAACL) [[arXiv](https://arxiv.org/abs/2311.09336)]
+- 2023 - Shinn et al., Reflexion: Language Agents with Verbal Reinforcement Learning (NeurIPS) [[openreview](https://openreview.net/forum?id=vAElhFcKW6)]
+- 2023 - Madaan et al., Self-Refine: Iterative Refinement with Self-Feedback (NeurIPS) [[openreview](https://openreview.net/forum?id=S37hOerQLB)]
 
 - 2024.04 - Naik et al., Generating Situated Reflection Triggers about Alternative Solution Paths: A Case Study of Generative AI for Computer-Supported Collaborative Learning [[arXiv](https://arxiv.org/abs/2404.18262)]
 - 2024.04 - Tian et al., Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing [[arXiv](https://arxiv.org/abs/2404.12253)]
@@ -231,15 +256,21 @@ WIP
 
 - 2023 - Hu et al., AVIS: Autonomous Visual Information Seeking with Large Language Model Agent (NeurIPS) [[openreview](https://openreview.net/forum?id=7EMphtUgCI&referrer=%5Bthe%20profile%20of%20Cordelia%20Schmid%5D(%2Fprofile%3Fid%3D~Cordelia_Schmid1))]
 
-
 - 2024.04 - Shaham et al., A Multimodal Automated Interpretability Agent [[arXiv](https://arxiv.org/abs/2404.14394)]
 - 2024.03 - Mar et al., Modeling Multimodal Social Interactions: New Challenges and Baselines with Densely Aligned Representations [[arXiv](https://arxiv.org/abs/2403.02090)]
+- 2022.09 - Liang et al., Code as Policies: Language Model Programs for Embodied Control [[arXiv](https://arxiv.org/abs/2209.07753)]
 
 ### Environments
+
+**Survey**
+
+**Papers**
 
 - 2024.06 - Xi et al., AgentGym: Evolving Large Language Model-based Agents across Diverse Environments [[arXiv](https://arxiv.org/abs/2406.04151)]
 - 2024.04 - Xie et al., OSWorld: Benchmarking Multimodal Agents for Open-Ended Tasks in Real Computer Environments [[arXiv](https://arxiv.org/abs/2404.07972)]
 - 2024.03 - SIMA Team, Scaling Instructable Agents Across Many Simulated Worlds [[arXiv](https://arxiv.org/abs/2404.10179v2)]
+- 2023.05 - Wang et al., Voyager: An Open-Ended Embodied Agent with Large Language Models [[arXiv](https://arxiv.org/abs/2305.16291)]
+- 2023.04 - Park et al., Generative Agents: Interactive Simulacra of Human Behavior [[arXiv](https://arxiv.org/abs/2304.03442)]
 
 
 ### Multi Agent
@@ -247,11 +278,15 @@ WIP
 **Survey**
 
 - 2024.02 - Han et al., LLM Multi-Agent Systems: Challenges and Open Problems [[arXiv](https://arxiv.org/abs/2402.03578)]
+- 2024.01 - Guo et al., Large Language Model based Multi-Agents: A Survey of Progress and Challenges [[arXiv](https://arxiv.org/abs/2402.01680)]
 - 2024.01 - Cheng et al., Exploring Large Language Model based Intelligent Agents: Definitions, Methods, and Prospects [[arXiv](https://arxiv.org/abs/2401.03428)]
 
 **Papers**
 
 - 2024 - Zhang et al., ProAgent: Building Proactive Cooperative Agents with Large Language Models (AAAI) [[arXiv](https://arxiv.org/abs/2308.11339)]
+
+- 2024 - Chen et al., CoMM: Collaborative Multi-Agent, Multi-Reasoning-Path Prompting for Complex Problem Solving (NAACL) [[arXiv](https://arxiv.org/abs/2404.17729)]
+- 2024 - Gong et al., MindAgent: Emergent Gaming Interaction (NAACL) [[arXiv](https://arxiv.org/abs/2309.09971)]
 
 - 2024 - Zhang et al., Exploring Collaboration Mechanisms for LLM Agents: A Social Psychology View (ICLR) [[openreview](https://openreview.net/forum?id=ueqTjOcuLc)]
 - 2024 - Du et al., Improving Factuality and Reasoning in Language Models through Multiagent Debate (ICLR) [[openreview](https://openreview.net/forum?id=QAwaaLJNCk)]
@@ -281,6 +316,7 @@ WIP
 
 ### Web Navigation
 
+- 2024 - Tao et al., WebWISE: Unlocking Web Interface Control for LLMs via Sequential Exploration (NAACL) [[arXiv](https://arxiv.org/abs/2310.16042)]
 - 2024 - Wang et al., Mobile-Agent: Autonomous Multi-Modal Mobile Device Agent with Visual Perception (ICLR) [[openreview](https://openreview.net/forum?id=jE6pDYCnVF)]
 - 2024 - Gur et al., A Real-World WebAgent with Planning, Long Context Understanding, and Program Synthesis (ICLR) [[openreview](https://openreview.net/forum?id=9JQtrumvg8)]
 - 2024 - Furuta et al., Multimodal Web Navigation with Instruction-Finetuned Foundation Models (ICLR) [[openreview](https://openreview.net/forum?id=efFmBWioSc)]
@@ -324,15 +360,22 @@ WIP
 
 ### Code Generation and Software Engineer
 
+**Survey**
+
+- 2023.11 - Zheng et al., A Survey of Large Language Models for Code: Evolution, Benchmarking, and Future Trends [[arXiv](https://arxiv.org/abs/2311.10372)]
+- 2023.10 - Fan et al., Large Language Models for Software Engineering: Survey and Open Problems [[arXiv](https://arxiv.org/abs/2310.03533)]
+- 2023.07 - Wang et al., Software Testing with Large Language Models: Survey, Landscape, and Vision (IEEE) [[arXiv](https://arxiv.org/abs/2307.07221)]
+
+**Paper**
+
 - 2024 - Qian et al., ChatDev: Communicative Agents for Software Development (ACL) [[arXiv](https://arxiv.org/abs/2307.07924)]
 
 - 2024 - Wang et al., Executable Code Actions Elicit Better LLM Agents (ICML) [[arXiv](https://arxiv.org/abs/2402.01030)]
-
+- 2024 - Nan et al., On Evaluating the Integration of Reasoning and Action in LLM Agents with Database Question Answering (NAACL) [[arXiv](https://arxiv.org/abs/2311.09721)]
 - 2024 - Olausson et al., Is Self-Repair a Silver Bullet for Code Generation? (ICLR) [[openreview](https://openreview.net/forum?id=y0GJXRungR)]
 - 2024 - Hong et al., MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework (ICLR) [[openreview](https://openreview.net/forum?id=VtmBAGCN7o)]
 - 2024 - Jimenez et al., SWE-bench: Can Language Models Resolve Real-world Github Issues? (ICLR) [[openreview](https://openreview.net/forum?id=VTF8yNQM66)]
 
-- 2023 - Madaan et al., Self-Refine: Iterative Refinement with Self-Feedback (NeurIPS) [[openreview](https://openreview.net/forum?id=S37hOerQLB)]
 - 2023 - Li et al., CAMEL: Communicative Agents for "Mind" Exploration of Large Language Model Society (NeurIPS) [[arXiv](https://arxiv.org/abs/2303.17760)]
 
 - 2023 - Dibia, LIDA: A Tool for Automatic Generation of Grammar-Agnostic Visualizations and Infographics using Large Language Models (ACL) [[aclanthology](https://aclanthology.org/2023.acl-demo.11/)]
