@@ -34,10 +34,20 @@ Please note, this repository is a voluntary project and does not list all existi
 
 ## AI Agent
 
-We are not sure about the exact definition, but one commonly known definition is the following.
+We are not sure about the exact definition, but one commonly known definition of "autonomous agent" is the following.
 
 > An autonomous agent is a system situated within and a part of an environment that senses that environment and acts on it, over time, in pursuit of its own agenda and so as to effect what it senses in the future.<br>
 > --- Franklin and Graesser (1997)
+
+Additionally, in [Practices for Governing Agentic AI Systems](https://openai.com/index/practices-for-governing-agentic-ai-systems/) published by Shavit et al. (OpenAI) in December 2023, **the degree of agenticness in a system** is defined as follows:
+
+> We define the degree of agenticness in a system as “the degree to which a system can adaptably achieve complex goals in complex environments with limited direct supervision.” 
+> Agenticness as defined here thus breaks down into several components:
+> - **Goal complexity**: How challenging would the AI system’s goal8 be for a human to achieve and how wide of a range of goals could the system achieve? Properties of the goal may include target levels of reliability, speed, and safety.
+> - **Environmental complexity**: How complex are the environments under which a system can achieve the goal? (E.g., to what extent are they cross-domain, multi-stakeholder, require operating over long time-horizons, and/or involve the use of multiple external tools.)
+> - **Adaptability**: How well can the system adapt and react to novel or unexpected circumstances?
+> - **Independent execution**: To what extent can the system reliably achieve its goals with limited human intervention or supervision?
+
 
 **Survey**
 
@@ -67,8 +77,10 @@ We are not sure about the exact definition, but one commonly known definition is
 - 2024.05 - Bavor and Taylor, The Guide to AI Agents [[SIERRA](https://sierra.ai/blog/ai-agents-guide)]
 - 2024.05 - Yohei Nakajima, Future of Autonomous Agents [[X's broadcast](https://x.com/i/broadcasts/1lPKqbVgNrZGb)]
 - 2024.05 - Alex Klein, The agentic era of UX [[Medium](https://uxdesign.cc/the-agentic-era-of-ux-4b58634e410b)]
+- 2024.05 - Cobus Greyling, Five Levels Of AI Agents [[Medium](https://cobusgreyling.medium.com/five-levels-of-ai-agents-5ac39a7b07ed)]
 - 2024.03 - Andrew Ng, Agentic Design Patterns Part 1 [[deeplearning.ai](https://www.deeplearning.ai/the-batch/how-agents-can-improve-llm-performance/?utm_campaign=The%20Batch&utm_source=hs_email&utm_medium=email&_hsenc=p2ANqtz-8Kh954rkXmE4vgpKvro3Klpjhn7IuT-Y_eXIYtgVIq9PTzwa5zFWX7FZZqv1tuDEEsTDuY)]
 - 2024.03 - Harrison Chase, What's next for AI agents [[Sequoia Capital, Youtube](https://youtu.be/pBBe1pk8hf4?feature=shared)]
+- 2024.02 - Zaharia et al., The Shift from Models to Compound AI Systems [[BAIR](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/)]
 - 2024.02 - Vincent Koc, Generative AI Design Patterns: A Comprehensive Guide [[Medium](https://towardsdatascience.com/generative-ai-design-patterns-a-comprehensive-guide-41425a40d7d0)]
 - 2023.12 - OpenAI, Practices for Governing Agentic AI Systems [[OpenAI](https://openai.com/index/practices-for-governing-agentic-ai-systems/)]
 - 2023.12 - Victor Dibia, Multi-Agent LLM Applications | A Review of Current Research, Tools, and Challenges [[newsletter](https://newsletter.victordibia.com/p/multi-agent-llm-applications-a-review)]
@@ -96,7 +108,11 @@ We are not sure about the exact definition, but one commonly known definition is
 - 2023 - Yao et al., ReAct: Synergizing Reasoning and Acting in Language Models (ICLR) [[openreview](https://openreview.net/forum?id=WE_vluYUL-X)]
 
 - 2024.05 - Liu et al., Agent Design Pattern Catalogue: A Collection of Architectural Patterns for Foundation Model based Agents [[arXiv](https://arxiv.org/abs/2405.10467)]
+- 2024.05 - Liu et al., Exploring Prosocial Irrationality for LLM Agents: A Social Cognition View [[arXiv](https://arxiv.org/abs/2405.14744)]
+- 2024.03 - Spivack et al., Cognition is All You Need -- The Next Layer of AI Above Large Language Models [[arXiv](https://arxiv.org/abs/2403.02164)]
 - 2024.02 - Zhang et al., Offline Training of Language Model Agents with Functions as Learnable Weights [[arXiv](https://arxiv.org/abs/2402.11359)]
+- 2024.02 - Li et al., More Agents Is All You Need [[arXiv](https://arxiv.org/abs/2402.05120)]
+- 2024.02 - Mo et al., A Trembling House of Cards? Mapping Adversarial Attacks against Language Agents [[arXiv](https://arxiv.org/abs/2402.10196)]
 - 2023.12 - Ge et al., LLM as OS, Agents as Apps: Envisioning AIOS, Agents and the AIOS-Agent Ecosystem [[arXiv](https://arxiv.org/abs/2312.03815)]
 - 2023.10 - Zeng et al., AgentTuning: Enabling Generalized Agent Abilities for LLMs [[arXiv](https://arxiv.org/abs/2310.12823)]
 - 2023.09 - Sumers et al., Cognitive Architectures for Language Agents [[arXiv](https://arxiv.org/abs/2309.02427)]
@@ -156,12 +172,16 @@ We are not sure about the exact definition, but one commonly known definition is
 - 2022 - Dua et al., Successive Prompting for Decomposing Complex Questions (EMNLP) [[aclanthology](https://aclanthology.org/2022.emnlp-main.81/)]
 - 2024.05 - Xu et al., Faithful Logical Reasoning via Symbolic Chain-of-Thought [[arXiv](https://arxiv.org/abs/2405.18357)]
 - 2024.05 - Stechly et al., Chain of Thoughtlessness? An Analysis of CoT in Planning [[arXiv](https://arxiv.org/abs/2405.04776)]
+- 2024.05 - Meta-Task Planning for Language Agents [[arXiv](https://arxiv.org/abs/2405.16510)]
 - 2024.05 - Verma et al., On the Brittle Foundations of ReAct Prompting for Agentic Large Language Models [[arXiv](https://arxiv.org/abs/2405.13966)]
 - 2024.04 - Jin et al., Graph Chain-of-Thought: Augmenting Large Language Models by Reasoning on Graphs [[arXiv](https://arxiv.org/abs/2404.07103)]
 - 2024.04 - Juneja et al., 𝙻𝙼𝟸: A Simple Society of Language Models Solves Complex Reasoning [[arXiv](https://www.arxiv.org/abs/2404.02255)]
 - 2024.03 - Zhu et al., KnowAgent: Knowledge-Augmented Planning for LLM-Based Agents [[arXiv](https://arxiv.org/abs/2403.03101)]
+- 2024.02 - Hirsch et al., What's the Plan? Evaluating and Developing Planning-Aware Techniques for Language Models [[arXiv](https://arxiv.org/abs/2402.11489)]
+- 2024.02 - Hu et al., Uncertainty of Thoughts: Uncertainty-Aware Planning Enhances Information Seeking in Large Language Models [[arXiv](https://arxiv.org/abs/2402.03271)]
 - 2024.02 - Stechly et al., On the Self-Verification Limitations of Large Language Models on Reasoning and Planning Tasks [[arXiv](https://arxiv.org/abs/2402.08115)]
 - 2024.02 - Kambhampati et al., LLMs Can't Plan, But Can Help Planning in LLM-Modulo Frameworks [[arXiv](https://arxiv.org/abs/2402.01817)]
+- 2023.10 - Zhang et al., Probing the Multi-turn Planning Capabilities of LLMs via 20 Question Games [[arXiv](https://arxiv.org/abs/2310.01468)]
 - 2023.10 - Wang et al., PromptAgent: Strategic Planning with Language Models Enables Expert-level Prompt Optimization [[arXiv](https://arxiv.org/abs/2310.16427)]
 - 2023.08 - Besta et al., Graph of Thoughts: Solving Elaborate Problems with Large Language Models [[arXiv](https://arxiv.org/abs/2308.09687)]
 - 2023.08 - Dagan et al., Dynamic Planning with a LLM [[arXiv](https://arxiv.org/abs/2308.06391)]
@@ -174,6 +194,7 @@ We are not sure about the exact definition, but one commonly known definition is
 ### Action
 
 **Survey**
+- 2024.05 - Qu et al., Tool Learning with Large Language Models: A Survey [[arXiv](https://arxiv.org/abs/2405.17935)]
 - 2024.03 - Wang et al., What Are Tools Anyway? A Survey from the Language Model Perspective [[arXiv](https://arxiv.org/abs/2403.15452)]
 - 2023.04 - Qin et al., Tool Learning with Foundation Models [[arXiv](https://arxiv.org/abs/2304.08354)]
 
@@ -253,6 +274,7 @@ We are not sure about the exact definition, but one commonly known definition is
 - 2024.04 - Naik et al., Generating Situated Reflection Triggers about Alternative Solution Paths: A Case Study of Generative AI for Computer-Supported Collaborative Learning [[arXiv](https://arxiv.org/abs/2404.18262)]
 - 2024.04 - Tian et al., Toward Self-Improvement of LLMs via Imagination, Searching, and Criticizing [[arXiv](https://arxiv.org/abs/2404.12253)]
 - 2024.03 - Song et al., Trial and Error: Exploration-Based Trajectory Optimization for LLM Agents [[arXiv](https://arxiv.org/abs/2403.02502)]
+- 2024.02 - Zhou et al., ArCHer: Training Language Model Agents via Hierarchical Multi-Turn RL [[arXiv](https://arxiv.org/abs/2402.19446)]
 - 2023.10 - Zhang et al., Self-Convinced Prompting: Few-Shot Question Answering with Repeated Introspection [[arXiv](https://arxiv.org/abs/2310.05035)]
 - 2023.09 - Dhuliawala et al., Chain-of-Verification Reduces Hallucination in Large Language Models [[arXiv](https://arxiv.org/abs/2309.11495)]
 - 2023.09 - Shridhar et al., SCREWS: A Modular Framework for Reasoning with Revisions [[arXiv](https://arxiv.org/abs/2309.13075)]
@@ -262,6 +284,7 @@ We are not sure about the exact definition, but one commonly known definition is
 
 **Survey**
 
+- 2024.05 - LLMs Meet Multimodal Generation and Editing: A Survey [[arXiv](https://arxiv.org/abs/2405.19334)]
 - 2024.01 - Agent AI: Surveying the Horizons of Multimodal Interaction [[arXiv](https://arxiv.org/abs/2401.03568)]
 
 **Papers**
@@ -329,6 +352,11 @@ We are not sure about the exact definition, but one commonly known definition is
 
 ## Application
 
+### Reading and Writing Assistant
+
+- 2024 - Shao et al., Assisting in Writing Wikipedia-like Articles From Scratch with Large Language Models (NAACL) [[arXiv](https://arxiv.org/abs/2402.14207)]
+- 2024.02 - Lee et al., A Human-Inspired Reading Agent with Gist Memory of Very Long Contexts [[arXiv](https://arxiv.org/abs/2402.09727)]
+
 ### Information Seeking
 
 - 2024.04 - Chen et al., ChatShop: Interactive Information Seeking with Language Agents [[arXiv](https://arxiv.org/abs/2404.09911)]
@@ -353,7 +381,7 @@ We are not sure about the exact definition, but one commonly known definition is
 - 2018 - Liu et al., Reinforcement Learning on Web Interfaces Using Workflow-Guided Exploration (ICLR) [[openreview](https://openreview.net/forum?id=ryTp3f-0-)]
 - 2017 - Shi et al., World of Bits: An Open-Domain Platform for Web-Based Agents (ICML) [[PMLR](https://proceedings.mlr.press/v70/shi17a)]
 
-
+- 2024.06 - Li et al., On the Effects of Data Scale on Computer Control Agents [[arXiv](https://arxiv.org/abs/2406.03679v1)]
 - 2024.06 - Wang et al., Mobile-Agent-v2: Mobile Device Operation Assistant with Effective Navigation via Multi-Agent Collaboration [[arXiv](https://arxiv.org/abs/2406.01014)]
 - 2024.05 - Tan et al., Towards General Computer Control: A Multimodal Agent for Red Dead Redemption II as a Case Study [[arXiv](https://arxiv.org/abs/2403.03186)]
 - 2024.05 - Rawles et al., AndroidWorld: A Dynamic Benchmarking Environment for Autonomous Agents [[arXiv](https://arxiv.org/abs/2405.14573v1)]
@@ -363,6 +391,7 @@ We are not sure about the exact definition, but one commonly known definition is
 - 2024.04 - Pan et al., Autonomous Evaluation and Refinement of Digital Agents [[arXiv](https://arxiv.org/abs/2404.06474v2)]
 - 2024.03 - Drouin et al., WorkArena: How Capable Are Web Agents at Solving Common Knowledge Work Tasks? [[arXiv](https://arxiv.org/abs/2403.07718)]
 - 2024.02 - Zhang et al., UFO: A UI-Focused Agent for Windows OS Interaction [[arXiv](https://arxiv.org/abs/2402.07939)]
+- 2024.02 - Niu et al., ScreenAgent: A Vision Language Model-driven Computer Control Agent [[arXiv](https://arxiv.org/abs/2402.07945)]
 - 2024.02 - Lù et al., WebLINX: Real-World Website Navigation with Multi-Turn Dialogue [[arXiv](https://arxiv.org/abs/2402.05930)]
 - 2024.02 - Baechler et al., ScreenAI: A Vision-Language Model for UI and Infographics Understanding [[arXiv](https://arxiv.org/abs/2402.04615)]
 - 2024.01 - Zheng et al., GPT-4V(ision) is a Generalist Web Agent, if Grounded [[arXiv](https://arxiv.org/abs/2401.01614)]
@@ -417,7 +446,7 @@ We are not sure about the exact definition, but one commonly known definition is
 
 ## Recruitment Information
 
-<img src="assets/algomatic.png" width="50%"/>
+<img src="assets/algomatic.png" width="60%"/>
 
 Algomatic creates generative AI-native businesses across various fields.<br>
 We are looking for colleagues with diverse skills.
