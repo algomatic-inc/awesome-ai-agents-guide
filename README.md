@@ -52,9 +52,9 @@ Additionally, in [Practices for Governing Agentic AI Systems](https://openai.com
 **Survey**
 
 - 2024.02 - Huang et al., Position Paper: Agent AI Towards a Holistic Intelligence [[arXiv](https://arxiv.org/abs/2403.00833)]
-- 2023.09 - Xi et al., The Rise and Potential of Large Language Model Based Agents: A Survey [[arXiv](https://arxiv.org/abs/2309.07864)]
+- 2023.09 - Xi et al., The Rise and Potential of Large Language Model Based Agents: A Survey [[arXiv](https://arxiv.org/abs/2309.07864)][[GitHub](https://github.com/WooooDyy/LLM-Agent-Paper-List)]
 - 2023.09 - Zhao et al., An In-depth Survey of Large Language Model-based Artificial Intelligence Agents [[arXiv](https://arxiv.org/abs/2309.14365)]
-- 2023.08 - Wang et al., A Survey on Large Language Model Based Autonomous Agents [[arXiv](https://arxiv.org/abs/2308.11432)]
+- 2023.08 - Wang et al., A Survey on Large Language Model Based Autonomous Agents [[arXiv](https://arxiv.org/abs/2308.11432)][[GitHub](https://github.com/Paitesanshi/LLM-Agent-Survey?tab=readme-ov-file)]
 - 2023.06 - Taniguchi et al., World models and predictive coding for cognitive and developmental robotics: frontiers and challenges (Advanced Robotics) [[tandfonline](https://www.tandfonline.com/doi/full/10.1080/01691864.2023.2225232?src=most-read-last-year)]
 
 **Workshop or Tutorial**
@@ -62,6 +62,7 @@ Additionally, in [Practices for Governing Agentic AI Systems](https://openai.com
 - 2024.07 - ICML 2024 Tutorial Understanding the Role of Large Language Models in Planning [[Home](https://icml.cc/virtual/2024/tutorial/35226)]
 - 2024.06 - CVPR 2024 Tutorial on Generalist Agent AI [[Home](https://multimodalagentai.github.io/)]
 - 2024.05 - ICLR 2024 Workshop on LLM Agents [[Home](https://llmagents.github.io/)]
+- 2023.10 - CIKM 2023 Personalized Generative AI [[Home](https://sites.google.com/view/pgai2023)]
 - 2023.08 - IJCAI 2023 Symposium on Large Language Models (LLM 2023) [[Home](https://bigmodel.ai/llm-ijcai23)]
 
 **Misc**
@@ -115,7 +116,9 @@ Additionally, in [Practices for Governing Agentic AI Systems](https://openai.com
 - 2024.02 - Mo et al., A Trembling House of Cards? Mapping Adversarial Attacks against Language Agents [[arXiv](https://arxiv.org/abs/2402.10196)]
 - 2023.12 - Ge et al., LLM as OS, Agents as Apps: Envisioning AIOS, Agents and the AIOS-Agent Ecosystem [[arXiv](https://arxiv.org/abs/2312.03815)]
 - 2023.10 - Zeng et al., AgentTuning: Enabling Generalized Agent Abilities for LLMs [[arXiv](https://arxiv.org/abs/2310.12823)]
+- 2023.10 - Xie et al., OpenAgents: An Open Platform for Language Agents in the Wild [[arXiv](https://arxiv.org/abs/2310.10634)]
 - 2023.09 - Sumers et al., Cognitive Architectures for Language Agents [[arXiv](https://arxiv.org/abs/2309.02427)]
+- 2023.08 - Liu et al., AgentBench: Evaluating LLMs as Agents [[arXiv](https://arxiv.org/abs/2308.03688)]
 - 2023.05 - Xie et al., OlaGPT: Empowering LLMs With Human-like Problem-Solving Abilities [[arXiv](https://arxiv.org/abs/2305.16334)]
 - 2023.03 - Shen et al., HuggingGPT: Solving AI Tasks with ChatGPT and its Friends in Hugging Face [[arXiv](https://arxiv.org/abs/2303.17580)]
 
